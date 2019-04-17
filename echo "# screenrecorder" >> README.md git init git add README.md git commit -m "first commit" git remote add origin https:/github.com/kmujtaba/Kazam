@@ -1,0 +1,13 @@
+sudo apt install kazam
+
+
+for new version
+sudo apt-add-repository ppa:sylvain-pineau/kazam
+sudo apt update
+sudo apt install kazam
+sudo apt upgrade
+
+to uninstall
+sudo add-apt-repository --remove ppa:sylvain-pineau/kazam
+sudo apt update
+sudo apt upgrade
